@@ -1,4 +1,10 @@
 baseURL = 'http://github.emer.net/'
 languageCode = 'en-us'
-title = 'Hugo on Github'
+title = "Mark's Github Page"
 theme = "ananke"
+
+[params]
+author = "Mark E. Anderson"
+twitter = "https://twitter.com/markemer"
+github = "https://github.com/markemer"
+linkedin = "https://www.linkedin.com/in/markemer/"
