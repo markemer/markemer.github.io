@@ -1,3 +1,4 @@
 baseURL = 'http://github.emer.net/'
 languageCode = 'en-us'
 title = 'Hugo on Github'
+theme = "ananke"
