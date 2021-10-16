@@ -26,4 +26,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           exclude_assets: '.github, README.md'
-          cname: 'github.emer.net'
+          cname: 'emer.dev'
