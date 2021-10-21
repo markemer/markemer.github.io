@@ -1,10 +1,30 @@
 baseURL = 'http://github.emer.net/'
 languageCode = 'en-us'
-title = "Mark's Github Page"
-theme = "ananke"
+theme = "anatole"
 
 [params]
+title = "Mark's Github Page"
 author = "Mark E. Anderson"
-twitter = "https://twitter.com/markemer"
-github = "https://github.com/markemer"
-linkedin = "https://www.linkedin.com/in/markemer/"
+profilePicture = "https://secure.gravatar.com/avatar/840683939663de99dc03b639ee335691"
+
+    [[params.socialIcons]]
+    icon = "fab fa-linkedin"
+    title = "LinkedIn"
+    url = "https://www.linkedin.com/in/markemer/"
+
+    [[params.socialIcons]]
+    icon = "fab fa-github-square"
+    title = "Github"
+    url = "https://github.com/markemer"
+
+    [[params.socialIcons]]
+    icon = "fab fa-twitter-square"
+    title = "Twitter"
+    url = "https://twitter.com/markemer"
+
+[menu]
+    [[menu.main]]
+    name = "Home"
+    identifier = "home"
+    weight = 100
+    url = "/"
