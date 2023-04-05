@@ -1,4 +1,4 @@
-baseURL = 'http://github.emer.net/'
+baseURL = 'http://emer.dev/'
 languageCode = 'en-us'
 theme = "anatole"
 
