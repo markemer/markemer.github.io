@@ -1,6 +1,7 @@
 baseURL = 'http://emer.dev/'
 languageCode = 'en-us'
 theme = "anatole"
+ignoreLogs = ['warning-goldmark-raw-html']
 
 [params]
 title = "Mark's Github Page"
@@ -18,9 +19,24 @@ profilePicture = "https://secure.gravatar.com/avatar/840683939663de99dc03b639ee3
     url = "https://github.com/markemer"
 
     [[params.socialIcons]]
-    icon = "fab fa-twitter-square"
-    title = "Twitter"
-    url = "https://twitter.com/markemer"
+    icon = "fab fa-bluesky"
+    title = "BlueSky"
+    url = "https://bsky.app/profile/emer.net"
+
+    [[params.socialIcons]]
+    icon = "fab fa-mastodon"
+    title = "Mastodon"
+    url = "https://social.treehouse.systems/@markemer"
+
+    [[params.socialIcons]]
+    icon = "fab fa-square-threads"
+    title = "Threads"
+    url = "https://threads.net/mark.emer"
+
+    [[params.socialIcons]]
+    icon = "fab fa-square-instagram"
+    title = "Instagram"
+    url = "https://www.instagram.com/mark.emer"
 
 [menu]
     [[menu.main]]
@@ -28,3 +44,16 @@ profilePicture = "https://secure.gravatar.com/avatar/840683939663de99dc03b639ee3
     identifier = "home"
     weight = 100
     url = "/"
+
+    # [[menu.main]]
+    # name = "Starred"
+    # indentifier = "starred"
+    # weight = 100
+    # url = "/starred"
+
+[module]
+  # uncomment line below for temporary local development of module
+  # replacements = "github.com/lxndrblz/anatole -> ../../anatole"
+  [[module.imports]]
+    path = "github.com/lxndrblz/anatole"
+    disable = false
