@@ -1,5 +1,5 @@
 module github.com/markemer/markemer.github.io
 
-go 1.25.3
+go 1.26.6
 
-require github.com/lxndrblz/anatole v1.18.0 // indirect
+require github.com/lxndrblz/anatole v1.20.0 // indirect
